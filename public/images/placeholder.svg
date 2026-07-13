@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#f3f4f6"/>
+  <!-- Jersey outline shape -->
+  <path d="M130 80 L80 120 L110 150 L110 400 L290 400 L290 150 L320 120 L270 80 L240 100 C230 115 210 125 200 125 C190 125 170 115 160 100 Z" 
+        fill="#e5e7eb" stroke="#d1d5db" stroke-width="2"/>
+  <!-- Collar -->
+  <path d="M160 100 C170 115 190 125 200 125 C210 125 230 115 240 100" 
+        fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <!-- Sleeves -->
+  <path d="M130 80 L80 120 L110 150" fill="#e5e7eb" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M270 80 L320 120 L290 150" fill="#e5e7eb" stroke="#d1d5db" stroke-width="2"/>
+  <!-- Badge placeholder -->
+  <circle cx="175" cy="200" r="18" fill="#d1d5db"/>
+  <text x="400" y="470" fill="#9ca3af" font-size="14" font-family="system-ui" text-anchor="middle">Jersey Freak BD</text>
+</svg>

@@ -1,0 +1,5668 @@
+{
+  "site": {
+    "name": "The Outfit Spot",
+    "shortName": "TOS",
+    "tagline": "Wear Your Passion",
+    "currency": "BDT",
+    "currencySymbol": "৳",
+    "logo": "/images/logo.png",
+    "favicon": "/favicon.ico",
+    "defaultProductImage": "/images/jersey.webp"
+  },
+  "contact": {
+    "phone": "+8801777356562",
+    "whatsappNumber": "8801777356562",
+    "messengerUsername": "theoutfitspot",
+    "messengerUrl": "https://m.me/theoutfitspot",
+    "email": "hello@theoutfitspot.com",
+    "address": "Dhaka, Bangladesh",
+    "businessHours": "Sat–Thu: 10 AM – 9 PM"
+  },
+  "socialLinks": {
+    "facebook": "https://facebook.com/theoutfitspot",
+    "instagram": "https://instagram.com/theoutfitspot",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "announcement": {
+    "enabled": true,
+    "text": "🚚 Free delivery on orders above ৳2,000 · Delivery available across Bangladesh"
+  },
+  "hero": {
+    "eyebrow": "New Season 2026 Collection",
+    "title": "Wear the Jersey. Support the Team.",
+    "description": "Explore authentic club jerseys, fan editions, and comfortable sports trousers. Quality gear delivered to your door across Bangladesh.",
+    "desktopImage": "/images/cover.png",
+    "mobileImage": "/images/cover.png",
+    "primaryCta": {
+      "label": "Shop Jerseys",
+      "href": "/products"
+    },
+    "secondaryCta": {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-club-jerseys",
+      "name": "Club Jerseys",
+      "slug": "club-jerseys",
+      "description": "Latest home, away and third kits from the world's most popular clubs.",
+      "image": "/images/card1.png",
+      "featured": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "cat-fan-edition",
+      "name": "Fan Edition Jerseys",
+      "slug": "fan-edition-jerseys",
+      "description": "Show your national pride with authentic fan edition jerseys from around the world.",
+      "image": "/images/card2.png",
+      "featured": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "cat-trousers",
+      "name": "Trousers & Shorts",
+      "slug": "trousers",
+      "description": "Training trousers, shorts, and joggers for active wear and everyday comfort.",
+      "image": "/images/card3.png",
+      "featured": true,
+      "displayOrder": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "product-cj-001",
+      "slug": "man-utd-home-jersey-2026",
+      "sku": "JRS-CJ-001",
+      "name": "Manchester United Home Jersey 2026",
+      "shortDescription": "Classic red home kit for the 2026 season.",
+      "description": "The Manchester United 2026 home jersey is crafted for fans who live the game. Featuring the iconic red with white accents, this supporter-grade jersey offers everyday comfort and authentic style.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Manchester United",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "compareAtPrice": 1390,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C8102E",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "sale",
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 1,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        },
+        {
+          "label": "Edition",
+          "value": "Fan Edition"
+        },
+        {
+          "label": "Season",
+          "value": "2026/27"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold (30°C)",
+        "Do not bleach",
+        "Do not iron the badge or print",
+        "Do not tumble dry",
+        "Wash inside out"
+      ],
+      "deliveryNote": "Usually ships within 1–2 business days.",
+      "seo": {
+        "title": "Manchester United Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy the Manchester United 2026 Home Jersey in Bangladesh. Fan edition, fast delivery.",
+        "keywords": [
+          "manchester united jersey",
+          "man utd jersey",
+          "premier league jersey",
+          "football jersey bangladesh"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-002",
+      "slug": "man-city-away-jersey-2026",
+      "sku": "JRS-CJ-002",
+      "name": "Manchester City Away Jersey 2026",
+      "shortDescription": "Sky blue away kit for Citizens fans.",
+      "description": "The Manchester City Away Jersey 2026 features a premium sky-blue design with subtle gradient detailing. Perfect for matchday or casual wear.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Manchester City",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1250,
+      "colors": [
+        {
+          "name": "Sky Blue",
+          "value": "sky-blue",
+          "hex": "#6CABDD",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 2,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        },
+        {
+          "label": "Edition",
+          "value": "Fan Edition"
+        },
+        {
+          "label": "Season",
+          "value": "2026/27"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold (30°C)",
+        "Do not bleach",
+        "Do not iron the print",
+        "Wash inside out"
+      ],
+      "seo": {
+        "title": "Manchester City Away Jersey 2026 | The Outfit Spot",
+        "description": "Shop Manchester City Away Jersey 2026 in Bangladesh. Authentic fan edition.",
+        "keywords": [
+          "manchester city jersey",
+          "man city away jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-003",
+      "slug": "arsenal-home-jersey-2026",
+      "sku": "JRS-CJ-003",
+      "name": "Arsenal Home Jersey 2026",
+      "shortDescription": "Iconic red and white Gunners home kit.",
+      "description": "Support the Gunners in style with the Arsenal 2026 Home Jersey. Classic red with white sleeves, this fan edition jersey is perfect for matchday and casual wear alike.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Arsenal",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "compareAtPrice": 1350,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#EF0107",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "sale"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 3,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        },
+        {
+          "label": "Edition",
+          "value": "Fan Edition"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron the print"
+      ],
+      "seo": {
+        "title": "Arsenal Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy Arsenal Home Jersey 2026 in Bangladesh. Fast nationwide delivery.",
+        "keywords": [
+          "arsenal jersey",
+          "gunners jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-004",
+      "slug": "chelsea-third-kit-2026",
+      "sku": "JRS-CJ-004",
+      "name": "Chelsea Third Kit 2026",
+      "shortDescription": "Dark blue and gold third kit for the Blues.",
+      "description": "Chelsea's 2026 third kit is a bold statement in dark navy and gold. This fan edition jersey combines style with comfort for the modern Blues supporter.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Chelsea",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1290,
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "value": "navy",
+          "hex": "#034694",
+          "available": true
+        },
+        {
+          "name": "Gold",
+          "value": "gold",
+          "hex": "#DBA63A",
+          "available": false
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 4,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Slim"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron the print"
+      ],
+      "seo": {
+        "title": "Chelsea Third Kit 2026 | The Outfit Spot",
+        "description": "Shop Chelsea Third Kit 2026 fan edition. Delivery across Bangladesh.",
+        "keywords": [
+          "chelsea jersey",
+          "blues jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-005",
+      "slug": "liverpool-home-jersey-2026",
+      "sku": "JRS-CJ-005",
+      "name": "Liverpool Home Jersey 2026",
+      "shortDescription": "The iconic all-red Reds home jersey.",
+      "description": "You'll never walk alone in the Liverpool 2026 Home Jersey. The classic all-red design is a must-have for any Reds supporter.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Liverpool",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C8102E",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 5,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron print"
+      ],
+      "seo": {
+        "title": "Liverpool Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy Liverpool Home Jersey 2026 fan edition. Ships across Bangladesh.",
+        "keywords": [
+          "liverpool jersey",
+          "reds jersey",
+          "LFC jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-006",
+      "slug": "real-madrid-home-jersey-2026",
+      "sku": "JRS-CJ-006",
+      "name": "Real Madrid Home Jersey 2026",
+      "shortDescription": "The iconic all-white Los Blancos kit.",
+      "description": "Represent the most successful club in history with the Real Madrid 2026 Home Jersey. Pure white elegance with golden badge detailing.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Real Madrid",
+      "teamType": "club",
+      "league": "La Liga",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1350,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Gold",
+          "value": "gold",
+          "hex": "#DBA63A",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured",
+        "bestSeller"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 6,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        },
+        {
+          "label": "League",
+          "value": "La Liga"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron badges"
+      ],
+      "seo": {
+        "title": "Real Madrid Home Jersey 2026 | The Outfit Spot",
+        "description": "Shop Real Madrid Home Jersey 2026 in Bangladesh. Premium fan edition jersey.",
+        "keywords": [
+          "real madrid jersey",
+          "los blancos jersey",
+          "la liga jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-007",
+      "slug": "barcelona-away-jersey-2026",
+      "sku": "JRS-CJ-007",
+      "name": "Barcelona Away Jersey 2026",
+      "shortDescription": "Purple and gold Barca away kit.",
+      "description": "Stand out with Barcelona's stunning 2026 Away Jersey. The deep purple with gold accents makes this one of the most visually striking kits of the season.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Barcelona",
+      "teamType": "club",
+      "league": "La Liga",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1350,
+      "colors": [
+        {
+          "name": "Purple",
+          "value": "purple",
+          "hex": "#A50044",
+          "available": true
+        },
+        {
+          "name": "Gold",
+          "value": "gold",
+          "hex": "#DBA63A",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": false
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 7,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Slim"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron print"
+      ],
+      "seo": {
+        "title": "Barcelona Away Jersey 2026 | The Outfit Spot",
+        "description": "Buy Barcelona Away Jersey 2026 fan edition. Bangladesh delivery available.",
+        "keywords": [
+          "barcelona jersey",
+          "barca away jersey",
+          "la liga jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-008",
+      "slug": "bayern-munich-home-jersey-2026",
+      "sku": "JRS-CJ-008",
+      "name": "Bayern Munich Home Jersey 2026",
+      "shortDescription": "Classic red and white Bavarian kit.",
+      "description": "The Bayern Munich 2026 Home Jersey features the club's signature red with white detailing. A must-have for fans of the Bundesliga champions.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Bayern Munich",
+      "teamType": "club",
+      "league": "Bundesliga",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1290,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#DC052D",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 8,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "League",
+          "value": "Bundesliga"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Bayern Munich Home Jersey 2026 | The Outfit Spot",
+        "description": "Shop Bayern Munich Home Jersey 2026 fan edition in Bangladesh.",
+        "keywords": [
+          "bayern munich jersey",
+          "bundesliga jersey",
+          "german football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-009",
+      "slug": "psg-third-jersey-2026",
+      "sku": "JRS-CJ-009",
+      "name": "PSG Third Jersey 2025/26",
+      "shortDescription": "Black and purple Parisian third kit.",
+      "description": "PSG's 2025/26 third jersey is a statement piece in black and purple. Designed for the fashion-conscious football fan in Dhaka and beyond.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "PSG",
+      "teamType": "club",
+      "league": "Ligue 1",
+      "season": "2025/26",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1390,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        },
+        {
+          "name": "Purple",
+          "value": "purple",
+          "hex": "#6B1FA1",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new",
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 9,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Slim"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron print"
+      ],
+      "seo": {
+        "title": "PSG Third Jersey 2026 | The Outfit Spot",
+        "description": "Buy PSG Third Jersey 2026 fan edition. Fast delivery across Bangladesh.",
+        "keywords": [
+          "psg jersey",
+          "paris saint germain jersey",
+          "ligue 1 jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-010",
+      "slug": "juventus-home-jersey-2026",
+      "sku": "JRS-CJ-010",
+      "name": "Juventus Home Jersey 2026",
+      "shortDescription": "Classic black and white stripes of the Old Lady.",
+      "description": "The timeless black and white stripes of Juventus 2026 Home Jersey. A symbol of Italian football excellence.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Juventus",
+      "teamType": "club",
+      "league": "Serie A",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 10,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "League",
+          "value": "Serie A"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Juventus Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy Juventus 2026 Home Jersey. Fan edition, Bangladesh delivery.",
+        "keywords": [
+          "juventus jersey",
+          "serie a jersey",
+          "italian football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-011",
+      "slug": "atletico-madrid-away-2026",
+      "sku": "JRS-CJ-011",
+      "name": "Atletico Madrid Away 2026",
+      "shortDescription": "Navy blue Atletico away kit for die-hard fans.",
+      "description": "The Atletico Madrid 2026 Away Jersey in deep navy. Colchoneros fans across Bangladesh can now wear their passion.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Atletico Madrid",
+      "teamType": "club",
+      "league": "La Liga",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1250,
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "value": "navy",
+          "hex": "#003087",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 11,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "League",
+          "value": "La Liga"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Atletico Madrid Away Jersey 2026 | The Outfit Spot",
+        "description": "Buy Atletico Madrid Away Jersey 2026 in Bangladesh. Fan edition jersey.",
+        "keywords": [
+          "atletico madrid jersey",
+          "colchoneros jersey",
+          "la liga jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-012",
+      "slug": "borussia-dortmund-home-2026",
+      "sku": "JRS-CJ-012",
+      "name": "Borussia Dortmund Home 2026",
+      "shortDescription": "Bold yellow and black BVB home jersey.",
+      "description": "The iconic yellow and black of Borussia Dortmund's 2026 home kit. Signal Iduna Park energy, delivered to your door.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Borussia Dortmund",
+      "teamType": "club",
+      "league": "Bundesliga",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#FDE100",
+          "available": true
+        },
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 12,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "League",
+          "value": "Bundesliga"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Borussia Dortmund Home Jersey 2026 | The Outfit Spot",
+        "description": "Shop BVB Dortmund Home Jersey 2026 fan edition in Bangladesh.",
+        "keywords": [
+          "borussia dortmund jersey",
+          "BVB jersey",
+          "bundesliga jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-013",
+      "slug": "ac-milan-home-jersey-2026",
+      "sku": "JRS-CJ-013",
+      "name": "AC Milan Home Jersey 2026",
+      "shortDescription": "Iconic red and black stripes of the Rossoneri.",
+      "description": "AC Milan's 2026 home jersey in the classic red and black stripes. A symbol of Italian football prestige since 1899.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "AC Milan",
+      "teamType": "club",
+      "league": "Serie A",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1290,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#B90000",
+          "available": true
+        },
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 13,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "League",
+          "value": "Serie A"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "AC Milan Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy AC Milan Home Jersey 2026 fan edition. Bangladesh delivery.",
+        "keywords": [
+          "ac milan jersey",
+          "rossoneri jersey",
+          "serie a jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-014",
+      "slug": "inter-milan-away-jersey-2026",
+      "sku": "JRS-CJ-014",
+      "name": "Inter Milan Away Jersey 2026",
+      "shortDescription": "White and blue Nerazzurri away kit.",
+      "description": "Inter Milan's crisp white away jersey with electric blue details for the 2026 season. Show your Nerazzurri pride.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Inter Milan",
+      "teamType": "club",
+      "league": "Serie A",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1250,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Blue",
+          "value": "blue",
+          "hex": "#003DA5",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 14,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Inter Milan Away Jersey 2026 | The Outfit Spot",
+        "description": "Shop Inter Milan Away Jersey 2026 fan edition in Bangladesh.",
+        "keywords": [
+          "inter milan jersey",
+          "nerazzurri jersey",
+          "serie a jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-015",
+      "slug": "tottenham-home-jersey-2026",
+      "sku": "JRS-CJ-015",
+      "name": "Tottenham Hotspur Home Jersey 2026",
+      "shortDescription": "Classic white Spurs home kit.",
+      "description": "Support Spurs in their classic white 2026 home kit. Clean, modern design with navy collar and cuffs.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Tottenham Hotspur",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Navy",
+          "value": "navy",
+          "hex": "#132257",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 15,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "League",
+          "value": "Premier League"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Tottenham Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy Tottenham Hotspur Home Jersey 2026 in Bangladesh. Fan edition jersey.",
+        "keywords": [
+          "tottenham jersey",
+          "spurs jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-016",
+      "slug": "arsenal-away-jersey-2026",
+      "sku": "JRS-CJ-016",
+      "name": "Arsenal Away Jersey 2026",
+      "shortDescription": "Bold yellow and blue Gunners away kit.",
+      "description": "Arsenal's 2026 Away Jersey in striking yellow with navy detailing. A refreshing change from the classic red.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Arsenal",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1250,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#EFB810",
+          "available": true
+        },
+        {
+          "name": "Navy",
+          "value": "navy",
+          "hex": "#00034E",
+          "available": false
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 16,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Arsenal Away Jersey 2026 | The Outfit Spot",
+        "description": "Buy Arsenal Away Jersey 2026 yellow fan edition in Bangladesh.",
+        "keywords": [
+          "arsenal away jersey",
+          "gunners yellow jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-017",
+      "slug": "chelsea-home-jersey-2026",
+      "sku": "JRS-CJ-017",
+      "name": "Chelsea Home Jersey 2025/26",
+      "shortDescription": "Royal blue home kit of the Blues.",
+      "description": "Chelsea's iconic royal blue 2025/26 home jersey. Show your loyalty to the Blues with this fan edition.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Chelsea",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2025/26",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1190,
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "blue",
+          "hex": "#034694",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 17,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Chelsea Home Jersey 2026 | The Outfit Spot",
+        "description": "Buy Chelsea FC Home Jersey 2026 fan edition. Bangladesh delivery.",
+        "keywords": [
+          "chelsea jersey",
+          "chelsea fc jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-018",
+      "slug": "man-utd-third-jersey-2026",
+      "sku": "JRS-CJ-018",
+      "name": "Manchester United Third Jersey 2026",
+      "shortDescription": "Dark black and red third kit for United.",
+      "description": "Manchester United's dark third jersey for 2026 — sleek black with red accents. A premium look for die-hard Red Devils.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Manchester United",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1390,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#1A1A1A",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C8102E",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": false
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new",
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 18,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Slim"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Manchester United Third Jersey 2026 | The Outfit Spot",
+        "description": "Buy Manchester United Third Jersey 2026 black fan edition in Bangladesh.",
+        "keywords": [
+          "manchester united third jersey",
+          "man utd black jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-019",
+      "slug": "liverpool-away-jersey-2026",
+      "sku": "JRS-CJ-019",
+      "name": "Liverpool Away Jersey 2026",
+      "shortDescription": "Yellow away kit of the Liverpool Reds.",
+      "description": "Liverpool's bright yellow away jersey for 2026. A standout kit that echoes the club's heritage of memorable away strips.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Liverpool",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1250,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#EDBE00",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C8102E",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 19,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Liverpool Away Jersey 2026 | The Outfit Spot",
+        "description": "Buy Liverpool Away Jersey 2026 yellow fan edition in Bangladesh.",
+        "keywords": [
+          "liverpool away jersey",
+          "reds yellow jersey",
+          "premier league jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-cj-020",
+      "slug": "real-madrid-third-jersey-2026",
+      "sku": "JRS-CJ-020",
+      "name": "Real Madrid Third Jersey 2026",
+      "shortDescription": "Rare purple third kit of Los Blancos.",
+      "description": "Real Madrid's unique purple third jersey for 2026 — a bold departure from their signature white. Rare and highly sought after.",
+      "categoryId": "cat-club-jerseys",
+      "categorySlug": "club-jerseys",
+      "productType": "jersey",
+      "club": "Real Madrid",
+      "teamType": "club",
+      "league": "La Liga",
+      "season": "2026/27",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1450,
+      "colors": [
+        {
+          "name": "Purple",
+          "value": "purple",
+          "hex": "#6B1FA1",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": false
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new",
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 20,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Slim"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not iron print"
+      ],
+      "seo": {
+        "title": "Real Madrid Third Jersey 2026 | The Outfit Spot",
+        "description": "Buy Real Madrid Third Jersey 2026 purple fan edition. Limited stock.",
+        "keywords": [
+          "real madrid third jersey",
+          "los blancos purple jersey",
+          "la liga jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-001",
+      "slug": "argentina-fan-jersey-2026",
+      "sku": "JRS-FE-001",
+      "name": "Argentina Fan Jersey 2026",
+      "shortDescription": "Sky blue and white stripes of La Albiceleste.",
+      "description": "Wear the sky blue and white stripes of the world champions. The Argentina 2026 Fan Jersey is perfect for celebrating another season with La Albiceleste.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Argentina",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1090,
+      "compareAtPrice": 1290,
+      "colors": [
+        {
+          "name": "Sky Blue",
+          "value": "sky-blue",
+          "hex": "#74ACDF",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "sale",
+        "bestSeller"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 1,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        },
+        {
+          "label": "Edition",
+          "value": "Fan Edition"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Wash inside out",
+        "Do not iron the print"
+      ],
+      "seo": {
+        "title": "Argentina Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Argentina 2026 Fan Jersey sky blue. World champion jersey, fast delivery in Bangladesh.",
+        "keywords": [
+          "argentina jersey",
+          "messi jersey",
+          "world cup jersey",
+          "albiceleste jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-002",
+      "slug": "brazil-fan-jersey-2026",
+      "sku": "JRS-FE-002",
+      "name": "Brazil Fan Jersey 2026",
+      "shortDescription": "Iconic Canarinho yellow and green jersey.",
+      "description": "The Brazil 2026 Fan Jersey in iconic Canarinho yellow. Feel the Samba spirit and support the five-time world champions.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Brazil",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1090,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#FFDF00",
+          "available": true
+        },
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#009C3B",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "bestSeller",
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 2,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Wash inside out"
+      ],
+      "seo": {
+        "title": "Brazil Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Brazil 2026 Fan Jersey yellow Canarinho kit. Fast delivery Bangladesh.",
+        "keywords": [
+          "brazil jersey",
+          "seleção jersey",
+          "canarinho jersey",
+          "world cup jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-003",
+      "slug": "france-fan-jersey-2026",
+      "sku": "JRS-FE-003",
+      "name": "France Fan Jersey 2026",
+      "shortDescription": "Deep navy blue Les Bleus kit.",
+      "description": "The France 2026 Fan Jersey in signature navy blue. Support Les Bleus, the World Cup champions from Europe.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "France",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1090,
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "value": "navy",
+          "hex": "#002395",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 3,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "France Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy France 2026 Fan Jersey navy blue. Les Bleus supporter jersey Bangladesh.",
+        "keywords": [
+          "france jersey",
+          "les bleus jersey",
+          "french football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-004",
+      "slug": "germany-fan-jersey-2026",
+      "sku": "JRS-FE-004",
+      "name": "Germany Fan Jersey 2026",
+      "shortDescription": "Classic white and black German kit.",
+      "description": "The Die Mannschaft 2026 Fan Jersey in iconic white with black detailing. Germany's historic football tradition in wearable form.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Germany",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 4,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Germany Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Germany 2026 Fan Jersey white. Die Mannschaft supporter jersey Bangladesh.",
+        "keywords": [
+          "germany jersey",
+          "die mannschaft jersey",
+          "german football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-005",
+      "slug": "england-fan-jersey-2026",
+      "sku": "JRS-FE-005",
+      "name": "England Fan Jersey 2026",
+      "shortDescription": "Classic white Three Lions jersey.",
+      "description": "England's iconic white jersey with the Three Lions crest for 2026. Represent the birthplace of football.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "England",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#CF081F",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 5,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "England Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy England 2026 Fan Jersey three lions kit. Bangladesh delivery.",
+        "keywords": [
+          "england jersey",
+          "three lions jersey",
+          "english football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-006",
+      "slug": "spain-fan-jersey-2026",
+      "sku": "JRS-FE-006",
+      "name": "Spain Fan Jersey 2026",
+      "shortDescription": "Bold red La Roja supporter kit.",
+      "description": "La Roja's vibrant red 2026 fan jersey. Show your passion for Spain's tiki-taka tradition.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Spain",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1090,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#AA151B",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 6,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Spain Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Spain 2026 La Roja Fan Jersey red. Bangladesh fast delivery.",
+        "keywords": [
+          "spain jersey",
+          "la roja jersey",
+          "spanish football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-007",
+      "slug": "portugal-fan-jersey-2026",
+      "sku": "JRS-FE-007",
+      "name": "Portugal Fan Jersey 2026",
+      "shortDescription": "Iconic red of A Seleção das Quinas.",
+      "description": "Portugal's 2026 fan jersey in bold red with green details. Wear the colours of the European champions.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Portugal",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#D8262C",
+          "available": true
+        },
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#006B33",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 7,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Portugal Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Portugal 2026 fan jersey red. Cristiano Ronaldo fan kit Bangladesh.",
+        "keywords": [
+          "portugal jersey",
+          "ronaldo jersey",
+          "portuguese football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-008",
+      "slug": "netherlands-fan-jersey-2026",
+      "sku": "JRS-FE-008",
+      "name": "Netherlands Fan Jersey 2026",
+      "shortDescription": "Iconic Dutch orange of Oranje.",
+      "description": "The Netherlands' vibrant orange 2026 fan jersey. Unmissable on any pitch or stadium.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Netherlands",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Orange",
+          "value": "orange",
+          "hex": "#FF6200",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 8,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Netherlands Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Netherlands Oranje 2026 Fan Jersey. Dutch orange kit Bangladesh.",
+        "keywords": [
+          "netherlands jersey",
+          "oranje jersey",
+          "dutch football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-009",
+      "slug": "italy-fan-jersey-2026",
+      "sku": "JRS-FE-009",
+      "name": "Italy Fan Jersey 2026",
+      "shortDescription": "Azzurri blue of Gli Azzurri.",
+      "description": "Italy's historic Azzurri blue fan jersey for 2026. A symbol of elegance and skill in Italian football.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Italy",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "blue",
+          "hex": "#003399",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 9,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Italy Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Italy Azzurri 2026 Fan Jersey blue. Italian football jersey Bangladesh.",
+        "keywords": [
+          "italy jersey",
+          "azzurri jersey",
+          "italian football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-010",
+      "slug": "belgium-fan-jersey-2026",
+      "sku": "JRS-FE-010",
+      "name": "Belgium Fan Jersey 2026",
+      "shortDescription": "Red Devils black and red kit.",
+      "description": "Belgium's Red Devils 2026 fan jersey in red and black. Home to world-class talent and passionate football.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Belgium",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#D9000D",
+          "available": true
+        },
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 10,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Belgium Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Belgium Red Devils 2026 fan jersey. Bangladesh fast delivery.",
+        "keywords": [
+          "belgium jersey",
+          "red devils jersey",
+          "belgian football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-011",
+      "slug": "croatia-fan-jersey-2026",
+      "sku": "JRS-FE-011",
+      "name": "Croatia Fan Jersey 2026",
+      "shortDescription": "Iconic red and white checkerboard kit.",
+      "description": "Croatia's unmistakable red and white checkerboard pattern for 2026. A fan jersey that's as bold as the team's performances.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Croatia",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1090,
+      "colors": [
+        {
+          "name": "Red/White",
+          "value": "red-white",
+          "hex": "#FF0000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 11,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Croatia Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Croatia checkerboard fan jersey 2026. Bangladesh football jersey.",
+        "keywords": [
+          "croatia jersey",
+          "vatreni jersey",
+          "croatian football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-012",
+      "slug": "uruguay-fan-jersey-2026",
+      "sku": "JRS-FE-012",
+      "name": "Uruguay Fan Jersey 2026",
+      "shortDescription": "Light blue La Celeste kit.",
+      "description": "Uruguay's distinctive light blue fan jersey for 2026. La Celeste — the sky blue — representing South American football passion.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Uruguay",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 890,
+      "colors": [
+        {
+          "name": "Light Blue",
+          "value": "light-blue",
+          "hex": "#5EB6E4",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 12,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Uruguay Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Uruguay La Celeste 2026 fan jersey. Bangladesh delivery.",
+        "keywords": [
+          "uruguay jersey",
+          "la celeste jersey",
+          "south american football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-013",
+      "slug": "mexico-fan-jersey-2026",
+      "sku": "JRS-FE-013",
+      "name": "Mexico Fan Jersey 2026",
+      "shortDescription": "Green and red El Tri fan jersey.",
+      "description": "Mexico's vibrant green and red 2026 fan jersey. Show your support for El Tri with this bold fan edition.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Mexico",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#006847",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#CE1126",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 13,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Mexico Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Mexico El Tri 2026 fan jersey. Bangladesh football jersey delivery.",
+        "keywords": [
+          "mexico jersey",
+          "el tri jersey",
+          "mexican football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-014",
+      "slug": "usa-fan-jersey-2026",
+      "sku": "JRS-FE-014",
+      "name": "USA Fan Jersey 2026",
+      "shortDescription": "Red, white and blue USMNT jersey.",
+      "description": "United States Men's National Team 2026 fan jersey in red, white and blue. Home World Cup edition — a historic moment.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "USA",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Blue",
+          "value": "blue",
+          "hex": "#002868",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 14,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "USA Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy USA USMNT 2026 fan jersey. American football kit Bangladesh.",
+        "keywords": [
+          "usa jersey",
+          "usmnt jersey",
+          "american football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-015",
+      "slug": "japan-fan-jersey-2026",
+      "sku": "JRS-FE-015",
+      "name": "Japan Fan Jersey 2026",
+      "shortDescription": "Dark blue Samurai Blue fan jersey.",
+      "description": "Japan's Samurai Blue 2026 fan jersey. A bold dark blue design representing Asia's most exciting national team.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Japan",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 1090,
+      "colors": [
+        {
+          "name": "Dark Blue",
+          "value": "dark-blue",
+          "hex": "#19408B",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 15,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Japan Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Japan Samurai Blue 2026 fan jersey. Asian football jersey Bangladesh.",
+        "keywords": [
+          "japan jersey",
+          "samurai blue jersey",
+          "japanese football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-016",
+      "slug": "south-korea-fan-jersey-2026",
+      "sku": "JRS-FE-016",
+      "name": "South Korea Fan Jersey 2026",
+      "shortDescription": "Red Devils fan jersey of Taeguk Warriors.",
+      "description": "South Korea's Red Devils fan jersey for 2026. Be with the Taeguk Warriors in iconic red and white.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "South Korea",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#CD2E3A",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 16,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "South Korea Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy South Korea Red Devils fan jersey 2026. Bangladesh delivery.",
+        "keywords": [
+          "south korea jersey",
+          "taeguk warriors jersey",
+          "korean football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-017",
+      "slug": "morocco-fan-jersey-2026",
+      "sku": "JRS-FE-017",
+      "name": "Morocco Fan Jersey 2026",
+      "shortDescription": "Red and green Atlas Lions kit.",
+      "description": "Morocco's Atlas Lions 2026 fan jersey. Celebrating Africa's rising football powerhouse in bold red and green.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Morocco",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 890,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C1272D",
+          "available": true
+        },
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#006233",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 17,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Morocco Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Morocco Atlas Lions 2026 fan jersey. African football jersey Bangladesh.",
+        "keywords": [
+          "morocco jersey",
+          "atlas lions jersey",
+          "moroccan football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-018",
+      "slug": "senegal-fan-jersey-2026",
+      "sku": "JRS-FE-018",
+      "name": "Senegal Fan Jersey 2026",
+      "shortDescription": "White and green Lions of Teranga kit.",
+      "description": "Senegal's Lions of Teranga 2026 fan jersey. Africa's pride in clean white with green accents.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Senegal",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 890,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#00853F",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 18,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Senegal Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Senegal Lions of Teranga 2026 fan jersey. Bangladesh delivery.",
+        "keywords": [
+          "senegal jersey",
+          "lions of teranga jersey",
+          "senegalese football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-019",
+      "slug": "australia-fan-jersey-2026",
+      "sku": "JRS-FE-019",
+      "name": "Australia Fan Jersey 2026",
+      "shortDescription": "Socceroos yellow and green fan kit.",
+      "description": "Australia's Socceroos 2026 fan jersey in iconic yellow and green. Show your love for Asian-Pacific football.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Australia",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 890,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#FFD700",
+          "available": true
+        },
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#00843D",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 19,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Australia Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Australia Socceroos 2026 fan jersey. Bangladesh delivery.",
+        "keywords": [
+          "australia jersey",
+          "socceroos jersey",
+          "australian football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-fe-020",
+      "slug": "colombia-fan-jersey-2026",
+      "sku": "JRS-FE-020",
+      "name": "Colombia Fan Jersey 2026",
+      "shortDescription": "Vibrant yellow Los Cafeteros fan kit.",
+      "description": "Colombia's Los Cafeteros fan jersey in bright yellow with blue and red accents. South American passion in wearable form.",
+      "categoryId": "cat-fan-edition",
+      "categorySlug": "fan-edition-jerseys",
+      "productType": "jersey",
+      "club": "Colombia",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "fan",
+      "sleeveType": "short-sleeve",
+      "gender": "unisex",
+      "price": 990,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#FCD116",
+          "available": true
+        },
+        {
+          "name": "Blue",
+          "value": "blue",
+          "hex": "#003087",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 20,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Colombia Fan Jersey 2026 | The Outfit Spot",
+        "description": "Buy Colombia Los Cafeteros 2026 fan jersey yellow. Bangladesh delivery.",
+        "keywords": [
+          "colombia jersey",
+          "los cafeteros jersey",
+          "colombian football jersey"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-001",
+      "slug": "arsenal-training-trousers-2026",
+      "sku": "JRS-TR-001",
+      "name": "Arsenal Training Trousers 2026",
+      "shortDescription": "Red and white Gunners training bottoms.",
+      "description": "Arsenal 2026 training trousers in signature red and white. Comfortable elasticated waist with drawstring, deep pockets, and Arsenal badge.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Arsenal",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#EF0107",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 1,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester/Elastane blend"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        },
+        {
+          "label": "Closure",
+          "value": "Elasticated waist with drawstring"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not tumble dry high heat"
+      ],
+      "seo": {
+        "title": "Arsenal Training Trousers 2026 | The Outfit Spot",
+        "description": "Buy Arsenal 2026 training trousers. Comfortable football bottoms Bangladesh.",
+        "keywords": [
+          "arsenal trousers",
+          "football training pants",
+          "sports trousers bangladesh"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-002",
+      "slug": "chelsea-sports-shorts-2026",
+      "sku": "JRS-TR-002",
+      "name": "Chelsea Sports Shorts 2026",
+      "shortDescription": "Royal blue Chelsea training shorts.",
+      "description": "Chelsea's lightweight royal blue sports shorts for 2026. Perfect for training sessions and casual active wear.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Chelsea",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 590,
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "blue",
+          "hex": "#034694",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 2,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Chelsea Sports Shorts 2026 | The Outfit Spot",
+        "description": "Buy Chelsea sports shorts 2026 blue. Football training shorts Bangladesh.",
+        "keywords": [
+          "chelsea shorts",
+          "football shorts bangladesh",
+          "sports shorts"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-003",
+      "slug": "manchester-united-track-pants-2026",
+      "sku": "JRS-TR-003",
+      "name": "Manchester United Track Pants 2026",
+      "shortDescription": "Black and red United tracksuit bottoms.",
+      "description": "Manchester United's 2026 track pants in black with red stripes. Sleek, comfortable, and unmistakably Red Devils.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Manchester United",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 790,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C8102E",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 3,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Closure",
+          "value": "Drawstring"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Manchester United Track Pants 2026 | The Outfit Spot",
+        "description": "Buy Manchester United 2026 track pants. Football bottoms Bangladesh.",
+        "keywords": [
+          "manchester united track pants",
+          "man utd bottoms",
+          "football training pants"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-004",
+      "slug": "real-madrid-training-trousers-2026",
+      "sku": "JRS-TR-004",
+      "name": "Real Madrid Training Trousers 2026",
+      "shortDescription": "White and gold Los Blancos training bottoms.",
+      "description": "Real Madrid's premium white and gold training trousers for 2026. Train like the legends at Santiago Bernabeu.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Real Madrid",
+      "teamType": "club",
+      "league": "La Liga",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 790,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Gold",
+          "value": "gold",
+          "hex": "#DBA63A",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 4,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Real Madrid Training Trousers 2026 | The Outfit Spot",
+        "description": "Buy Real Madrid training trousers 2026. La Liga football bottoms Bangladesh.",
+        "keywords": [
+          "real madrid trousers",
+          "football training bottoms",
+          "sports pants"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-005",
+      "slug": "barcelona-joggers-2026",
+      "sku": "JRS-TR-005",
+      "name": "Barcelona Joggers 2026",
+      "shortDescription": "Dark blue and red Barca jogger pants.",
+      "description": "Barcelona's iconic dark blue and red joggers for 2026. Comfortable, stylish, and perfect for training or streetwear.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Barcelona",
+      "teamType": "club",
+      "league": "La Liga",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 790,
+      "colors": [
+        {
+          "name": "Dark Blue",
+          "value": "dark-blue",
+          "hex": "#A50044",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#A50044",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 5,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester/Cotton blend"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Barcelona Joggers 2026 | The Outfit Spot",
+        "description": "Buy Barcelona joggers 2026 dark blue. Football training bottoms Bangladesh.",
+        "keywords": [
+          "barcelona joggers",
+          "barca training pants",
+          "football joggers"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-006",
+      "slug": "psg-track-pants-2026",
+      "sku": "JRS-TR-006",
+      "name": "PSG Track Pants 2025/26",
+      "shortDescription": "Navy and red Parisian tracksuit bottoms.",
+      "description": "PSG's sleek navy and red track pants for 2025/26. The Parisian fashion touch meets serious sportswear.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "PSG",
+      "teamType": "club",
+      "league": "Ligue 1",
+      "season": "2025/26",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 890,
+      "colors": [
+        {
+          "name": "Navy",
+          "value": "navy",
+          "hex": "#003087",
+          "available": true
+        },
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#DA291C",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 6,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Closure",
+          "value": "Drawstring"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "PSG Track Pants 2026 | The Outfit Spot",
+        "description": "Buy PSG track pants 2026 navy. Paris Saint Germain training bottoms Bangladesh.",
+        "keywords": [
+          "psg track pants",
+          "psg training bottoms",
+          "football track pants"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-007",
+      "slug": "football-training-shorts-black",
+      "sku": "JRS-TR-007",
+      "name": "Football Training Shorts (Black)",
+      "shortDescription": "Essential black training shorts for all players.",
+      "description": "Lightweight, breathable black training shorts suitable for all sports. A wardrobe essential for active lifestyles.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 590,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 7,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Football Training Shorts Black | The Outfit Spot",
+        "description": "Buy black football training shorts. Essential sports shorts Bangladesh.",
+        "keywords": [
+          "football shorts",
+          "training shorts",
+          "sports shorts bangladesh"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-008",
+      "slug": "sports-training-shorts-white",
+      "sku": "JRS-TR-008",
+      "name": "Sports Training Shorts (White)",
+      "shortDescription": "Classic white sports shorts for all activities.",
+      "description": "Clean white training shorts in breathable polyester. Versatile and comfortable for football, gym, or casual wear.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 590,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 8,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Sports Training Shorts White | The Outfit Spot",
+        "description": "Buy white sports training shorts. Breathable football shorts Bangladesh.",
+        "keywords": [
+          "white sports shorts",
+          "training shorts",
+          "football shorts"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-009",
+      "slug": "liverpool-training-trousers-2026",
+      "sku": "JRS-TR-009",
+      "name": "Liverpool Training Trousers 2026",
+      "shortDescription": "Red and white Reds training bottoms.",
+      "description": "Liverpool's official-style 2026 training trousers in classic red and white. Comfortable for training sessions and matchday.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Liverpool",
+      "teamType": "club",
+      "league": "Premier League",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#C8102E",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 9,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Liverpool Training Trousers 2026 | The Outfit Spot",
+        "description": "Buy Liverpool FC 2026 training trousers red. Football bottoms Bangladesh.",
+        "keywords": [
+          "liverpool training pants",
+          "LFC bottoms",
+          "football training trousers"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-010",
+      "slug": "bayern-munich-sports-shorts-2026",
+      "sku": "JRS-TR-010",
+      "name": "Bayern Munich Sports Shorts 2026",
+      "shortDescription": "Red and white Bavarian training shorts.",
+      "description": "Bayern Munich's lightweight sports shorts for 2026 in signature red and white. Quick-dry fabric, perfect for training.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Bayern Munich",
+      "teamType": "club",
+      "league": "Bundesliga",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#DC052D",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 10,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Bayern Munich Sports Shorts 2026 | The Outfit Spot",
+        "description": "Buy Bayern Munich sports shorts 2026. Bundesliga training shorts Bangladesh.",
+        "keywords": [
+          "bayern munich shorts",
+          "bundesliga shorts",
+          "football training shorts"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-011",
+      "slug": "argentina-training-pants-2026",
+      "sku": "JRS-TR-011",
+      "name": "Argentina Training Pants 2026",
+      "shortDescription": "Sky blue La Albiceleste training bottoms.",
+      "description": "Argentina's 2026 training pants in sky blue. Channel the world champions' training spirit in comfortable polyester bottoms.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Argentina",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 790,
+      "colors": [
+        {
+          "name": "Sky Blue",
+          "value": "sky-blue",
+          "hex": "#74ACDF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 11,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Argentina Training Pants 2026 | The Outfit Spot",
+        "description": "Buy Argentina sky blue training pants 2026. Sports bottoms Bangladesh.",
+        "keywords": [
+          "argentina training pants",
+          "football training bottoms",
+          "sports pants"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-012",
+      "slug": "brazil-training-shorts-2026",
+      "sku": "JRS-TR-012",
+      "name": "Brazil Training Shorts 2026",
+      "shortDescription": "Yellow and green Seleção training shorts.",
+      "description": "Brazil's vibrant yellow and green training shorts for 2026. Light, breathable, and full of Samba spirit.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Brazil",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "Yellow",
+          "value": "yellow",
+          "hex": "#FFDF00",
+          "available": true
+        },
+        {
+          "name": "Green",
+          "value": "green",
+          "hex": "#009C3B",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 12,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Brazil Training Shorts 2026 | The Outfit Spot",
+        "description": "Buy Brazil Seleção training shorts 2026 yellow. Sports shorts Bangladesh.",
+        "keywords": [
+          "brazil training shorts",
+          "seleção shorts",
+          "football training shorts"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-013",
+      "slug": "england-sports-pants-2026",
+      "sku": "JRS-TR-013",
+      "name": "England Sports Pants 2026",
+      "shortDescription": "White Three Lions sports bottoms.",
+      "description": "England's 2026 sports pants in clean white with navy stripe. Comfortable and stylish training bottoms for Three Lions fans.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "England",
+      "teamType": "national",
+      "league": "International",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        },
+        {
+          "name": "Navy",
+          "value": "navy",
+          "hex": "#002395",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 13,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "England Sports Pants 2026 | The Outfit Spot",
+        "description": "Buy England Three Lions sports pants 2026. Football bottoms Bangladesh.",
+        "keywords": [
+          "england sports pants",
+          "three lions bottoms",
+          "football training pants"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-014",
+      "slug": "football-joggers-navy",
+      "sku": "JRS-TR-014",
+      "name": "Football Joggers (Navy Blue)",
+      "shortDescription": "Classic navy blue football joggers.",
+      "description": "Premium navy blue football joggers suitable for training, travel, or casual wear. Elasticated cuffs and waistband for comfort.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 790,
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "value": "navy",
+          "hex": "#001F5B",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 14,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester/Cotton blend"
+        },
+        {
+          "label": "Fit",
+          "value": "Tapered"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Football Joggers Navy Blue | The Outfit Spot",
+        "description": "Buy navy blue football joggers. Training pants Bangladesh delivery.",
+        "keywords": [
+          "football joggers",
+          "navy joggers",
+          "sports trousers bangladesh"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-015",
+      "slug": "juventus-training-shorts-2026",
+      "sku": "JRS-TR-015",
+      "name": "Juventus Training Shorts 2026",
+      "shortDescription": "Black and white Juve training shorts.",
+      "description": "Juventus' clean black and white training shorts for 2026. Lightweight and comfortable for the Italian champions' fans.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Juventus",
+      "teamType": "club",
+      "league": "Serie A",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        },
+        {
+          "name": "White",
+          "value": "white",
+          "hex": "#FFFFFF",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 15,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Juventus Training Shorts 2026 | The Outfit Spot",
+        "description": "Buy Juventus black training shorts 2026. Serie A football shorts Bangladesh.",
+        "keywords": [
+          "juventus shorts",
+          "juve training shorts",
+          "serie a football shorts"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-016",
+      "slug": "ac-milan-sports-trousers-2026",
+      "sku": "JRS-TR-016",
+      "name": "AC Milan Sports Trousers 2026",
+      "shortDescription": "Red and black Rossoneri training bottoms.",
+      "description": "AC Milan's red and black striped sports trousers for 2026. Comfortable, stylish, and unmistakably Rossoneri.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "AC Milan",
+      "teamType": "club",
+      "league": "Serie A",
+      "season": "2026/27",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 790,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#B90000",
+          "available": true
+        },
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 16,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "AC Milan Sports Trousers 2026 | The Outfit Spot",
+        "description": "Buy AC Milan sports trousers 2026 red black. Rossoneri bottoms Bangladesh.",
+        "keywords": [
+          "ac milan trousers",
+          "rossoneri bottoms",
+          "serie a football bottoms"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-017",
+      "slug": "athletic-shorts-pro-black",
+      "sku": "JRS-TR-017",
+      "name": "Athletic Shorts Pro (Black)",
+      "shortDescription": "Premium black athletic shorts for all sports.",
+      "description": "Professional-grade black athletic shorts with moisture-wicking technology. Suitable for football, gym, running, and all active sports.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 590,
+      "colors": [
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#1A1A1A",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "bestSeller"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 17,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester (moisture-wicking)"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not tumble dry"
+      ],
+      "seo": {
+        "title": "Athletic Shorts Pro Black | The Outfit Spot",
+        "description": "Buy black athletic shorts pro Bangladesh. Best sports shorts for football and gym.",
+        "keywords": [
+          "athletic shorts",
+          "sports shorts",
+          "football shorts bangladesh",
+          "gym shorts"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-018",
+      "slug": "sports-joggers-premium-grey",
+      "sku": "JRS-TR-018",
+      "name": "Sports Joggers Premium (Grey)",
+      "shortDescription": "Premium grey sports joggers for training and daily wear.",
+      "description": "Premium grey sports joggers with brushed inner lining for extra warmth and comfort. Perfect for cooler training sessions and everyday wear.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 890,
+      "colors": [
+        {
+          "name": "Grey",
+          "value": "grey",
+          "hex": "#808080",
+          "available": true
+        },
+        {
+          "name": "Black",
+          "value": "black",
+          "hex": "#000000",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "featured"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 18,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester/Cotton blend"
+        },
+        {
+          "label": "Inner Lining",
+          "value": "Brushed fleece"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Do not tumble dry high"
+      ],
+      "seo": {
+        "title": "Sports Joggers Premium Grey | The Outfit Spot",
+        "description": "Buy premium grey sports joggers Bangladesh. Comfortable training trousers.",
+        "keywords": [
+          "sports joggers",
+          "premium joggers",
+          "grey training pants",
+          "sports trousers"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-019",
+      "slug": "football-training-pants-red",
+      "sku": "JRS-TR-019",
+      "name": "Football Training Pants (Red)",
+      "shortDescription": "Bright red football training trousers.",
+      "description": "Bright red football training pants with two side pockets and elasticated waistband. Comfortable and visible on the pitch.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "trousers",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "full-length",
+      "gender": "unisex",
+      "price": 690,
+      "colors": [
+        {
+          "name": "Red",
+          "value": "red",
+          "hex": "#DC143C",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": false
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "available": true,
+      "displayOrder": 19,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester"
+        },
+        {
+          "label": "Pockets",
+          "value": "2 side pockets"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Football Training Pants Red | The Outfit Spot",
+        "description": "Buy red football training pants Bangladesh. Sports trousers fast delivery.",
+        "keywords": [
+          "red training pants",
+          "football training bottoms",
+          "sports trousers bangladesh"
+        ]
+      }
+    },
+    {
+      "id": "product-tr-020",
+      "slug": "sports-shorts-elite-navy",
+      "sku": "JRS-TR-020",
+      "name": "Sports Shorts Elite (Navy)",
+      "shortDescription": "Elite navy blue sports shorts for competition.",
+      "description": "Competition-grade navy blue sports shorts with quick-dry fabric. Lightweight with a 7-inch inseam, ideal for football and athletics.",
+      "categoryId": "cat-trousers",
+      "categorySlug": "trousers",
+      "productType": "shorts",
+      "club": "Generic",
+      "teamType": "generic",
+      "league": "",
+      "season": "2026",
+      "edition": "training",
+      "sleeveType": "short",
+      "gender": "unisex",
+      "price": 590,
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "value": "navy",
+          "hex": "#1C3557",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "label": "S",
+          "value": "s",
+          "available": true
+        },
+        {
+          "label": "M",
+          "value": "m",
+          "available": true
+        },
+        {
+          "label": "L",
+          "value": "l",
+          "available": true
+        },
+        {
+          "label": "XL",
+          "value": "xl",
+          "available": true
+        },
+        {
+          "label": "XXL",
+          "value": "xxl",
+          "available": true
+        }
+      ],
+      "images": [
+        "/images/jersey.webp"
+      ],
+      "thumbnail": "/images/jersey.webp",
+      "badges": [
+        "new"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "available": true,
+      "displayOrder": 20,
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Polyester (quick-dry)"
+        },
+        {
+          "label": "Inseam",
+          "value": "7 inch"
+        }
+      ],
+      "careInstructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ],
+      "seo": {
+        "title": "Sports Shorts Elite Navy | The Outfit Spot",
+        "description": "Buy navy elite sports shorts Bangladesh. Competition grade football shorts.",
+        "keywords": [
+          "elite sports shorts",
+          "navy sports shorts",
+          "football shorts bangladesh"
+        ]
+      }
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-001",
+      "title": "World Cup 2026 Special Edition",
+      "description": "Get your national team jersey before the tournament. Limited stock available.",
+      "image": "/images/banners/promo-world-cup.webp",
+      "cta": {
+        "label": "Shop National Jerseys",
+        "href": "/products?category=fan-edition-jerseys"
+      },
+      "active": true
+    }
+  ],
+  "benefits": [
+    {
+      "id": "benefit-001",
+      "icon": "Shield",
+      "title": "Authentic Quality",
+      "description": "Every jersey is checked for quality before dispatch. Fan edition jerseys built for everyday comfort."
+    },
+    {
+      "id": "benefit-002",
+      "icon": "Truck",
+      "title": "Fast Nationwide Delivery",
+      "description": "We deliver to all 64 districts in Bangladesh. Most orders shipped within 1–2 business days."
+    },
+    {
+      "id": "benefit-003",
+      "icon": "MessageCircle",
+      "title": "WhatsApp Support",
+      "description": "Order or enquire via WhatsApp. Our team responds quickly and helps you find the right jersey."
+    },
+    {
+      "id": "benefit-004",
+      "icon": "RefreshCw",
+      "title": "Easy Exchange",
+      "description": "Wrong size? We offer hassle-free size exchanges within 7 days of delivery. Your satisfaction matters."
+    },
+    {
+      "id": "benefit-005",
+      "icon": "Star",
+      "title": "Best Prices",
+      "description": "Competitive pricing on all jerseys. Premium fan edition quality at prices that won't break the bank."
+    },
+    {
+      "id": "benefit-006",
+      "icon": "Package",
+      "title": "Secure Packaging",
+      "description": "Jerseys are carefully packed to avoid damage during transit. Delivered in pristine condition every time."
+    }
+  ],
+  "footer": {
+    "description": "Your go-to source for authentic football jerseys in Bangladesh. Club jerseys, fan editions, and sports wear delivered nationwide.",
+    "sections": [
+      {
+        "title": "Products",
+        "links": [
+          {
+            "label": "Club Jerseys",
+            "href": "/products?category=club-jerseys"
+          },
+          {
+            "label": "Fan Edition Jerseys",
+            "href": "/products?category=fan-edition-jerseys"
+          },
+          {
+            "label": "Trousers & Shorts",
+            "href": "/products?category=trousers"
+          },
+          {
+            "label": "New Arrivals",
+            "href": "/products?sort=newest"
+          },
+          {
+            "label": "Featured",
+            "href": "/products?featured=true"
+          }
+        ]
+      },
+      {
+        "title": "Information",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "/about"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          },
+          {
+            "label": "Delivery Info",
+            "href": "/delivery"
+          }
+        ]
+      }
+    ],
+    "copyrightText": "© 2026 The Outfit Spot. All rights reserved."
+  },
+  "seo": {
+    "defaultTitle": "The Outfit Spot — Wear Your Passion",
+    "defaultDescription": "Shop authentic club jerseys, fan edition jerseys, and sports trousers in Bangladesh. Fast delivery nationwide.",
+    "siteUrl": "https://theoutfitspot.com",
+    "defaultImage": "/images/banners/hero-desktop.webp"
+  },
+  "delivery": {
+    "areas": [
+      "Dhaka (1–2 days)",
+      "Chittagong (2–3 days)",
+      "Sylhet (2–3 days)",
+      "Rajshahi (2–3 days)",
+      "Khulna (2–3 days)",
+      "Barisal (2–3 days)",
+      "Rangpur (2–3 days)",
+      "Mymensingh (2–3 days)",
+      "All other districts (3–5 days)"
+    ],
+    "estimatedDays": "1–5 business days depending on location",
+    "chargeNote": "Delivery charge: ৳60 inside Dhaka, ৳120 outside Dhaka. Free delivery on orders above ৳2,000.",
+    "returnPolicy": "Size exchange accepted within 7 days of delivery. Item must be unused, unwashed, and in original condition. Contact us via WhatsApp to arrange exchange.",
+    "paymentMethods": [
+      "Cash on Delivery (COD)",
+      "bKash",
+      "Nagad",
+      "Rocket",
+      "Bank Transfer"
+    ]
+  },
+  "about": {
+    "title": "About The Outfit Spot",
+    "description": "The Outfit Spot is Bangladesh's trusted online jersey store. We specialize in fan edition club jerseys, national team jerseys, and sports trousers — all available at competitive prices with nationwide delivery.",
+    "mission": "Our mission is to make it easy for football fans across Bangladesh to wear their passion. Whether you support Manchester United, Argentina, or any team in between — we have the jersey for you."
+  }
+}
