@@ -25,7 +25,7 @@ export function HeroSection({ hero }: HeroSectionProps) {
           alt="The Outfit Spot Collection"
           width={1920}
           height={800}
-          className="w-full h-auto block"
+          className="w-full aspect-video object-cover md:aspect-auto md:h-auto block"
           unoptimized
           priority
         />
