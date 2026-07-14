@@ -1,4 +1,4 @@
-
+import { Suspense } from "react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { MobileNavigation } from "@/components/layout/mobile-navigation";
@@ -12,7 +12,6 @@ import {
   getAllCategories,
   getFooterConfig,
 } from "@/lib/data";
-import { siteData } from "@/data/site-data";
 import { AnalyticsTracker } from "@/components/analytics-tracker";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -65,7 +64,9 @@ export default function RootLayout({
         <AnalyticsTracker />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <TooltipProvider>
-            <Header site={site} contact={contact} categories={categories} />
+            <Suspense fallback={null}>
+              <Header site={site} contact={contact} categories={categories} />
+            </Suspense>
             <main className="flex-1 pb-16 md:pb-0">{children}</main>
             <Footer site={site} contact={contact} social={social} footer={footer} />
             <MobileNavigation />
