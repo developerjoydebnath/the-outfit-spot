@@ -6,6 +6,7 @@ import { Home, Grid3X3, ShoppingBag, Phone, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { SearchSheet } from "@/components/layout/search-sheet";
+import { trackClick } from "@/lib/analytics-client";
 
 const NAV_ITEMS = [
   { label: "Home", href: "/", icon: Home },
@@ -50,6 +51,7 @@ export function MobileNavigation() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Order via WhatsApp"
+                    onClick={() => trackClick('whatsapp')}
                     className="flex flex-col items-center gap-0.5 px-3 py-2 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Icon className="h-5 w-5" aria-hidden />

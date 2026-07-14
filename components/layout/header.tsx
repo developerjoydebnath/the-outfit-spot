@@ -3,13 +3,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { Search, User, ShoppingBag, Heart, Menu, X, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { SearchSheet } from "@/components/layout/search-sheet";
 import { Container } from "@/components/shared/container";
+import { trackClick } from "@/lib/analytics-client";
 import type { SiteSettings, ContactInfo, Category } from "@/types/site-data";
 
 const NAV_ITEMS = [
@@ -31,6 +32,7 @@ export function Header({ site, contact, categories }: HeaderProps) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   return (
     <header className="sticky top-0 z-50 w-full">
@@ -97,6 +99,7 @@ export function Header({ site, contact, categories }: HeaderProps) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Order via WhatsApp"
+              onClick={() => trackClick('whatsapp')}
             >
               <Button variant="ghost" size="icon" className="h-9 w-9">
                 <ShoppingBag className="h-4 w-4" />
@@ -131,7 +134,13 @@ export function Header({ site, contact, categories }: HeaderProps) {
         <Container>
           <ul className="flex items-center gap-0 overflow-x-auto scrollbar-none">
             {NAV_ITEMS.map((item) => {
-              const isActive = pathname?.startsWith(item.href.split("?")[0]);
+              const itemPath = item.href.split("?")[0];
+              const itemQuery = item.href.split("?")[1] || "";
+              const currentQuery = searchParams?.toString() || "";
+              
+              // Only active if both pathname and query params match exactly
+              const isActive = pathname === itemPath && currentQuery === itemQuery;
+              
               return (
                 <li key={item.label}>
                   <Link

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Dialog,
   DialogContent,
@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { SizeSelector, ColorSelector } from "@/components/product/option-selector";
 import { buildWhatsAppUrl, buildMessengerUrl } from "@/lib/contact-links";
+import { trackClick } from "@/lib/analytics-client";
 import { formatPrice } from "@/lib/format";
 import { getContactInfo, getSiteSettings } from "@/lib/data";
 import type { Product } from "@/types/site-data";
@@ -32,10 +33,11 @@ export function BuyNowDialog({ product, open, onOpenChange }: BuyNowDialogProps)
     product.colors.find((c) => c.available)?.value ?? null
   );
 
-  const productUrl =
-    typeof window !== "undefined"
-      ? `${window.location.origin}/products/${product.slug}/`
-      : `/products/${product.slug}/`;
+  const [productUrl, setProductUrl] = useState(`/products/${product.slug}/`);
+
+  useEffect(() => {
+    setProductUrl(`${window.location.origin}/products/${product.slug}/`);
+  }, [product.slug]);
 
   const whatsappUrl = buildWhatsAppUrl(contact, product, { size: selectedSize ?? undefined, color: selectedColor ?? undefined }, productUrl);
   const messengerUrl = buildMessengerUrl(contact);
@@ -90,7 +92,10 @@ export function BuyNowDialog({ product, open, onOpenChange }: BuyNowDialogProps)
               target="_blank"
               rel="noopener noreferrer"
               className={`flex items-center justify-center gap-2 rounded-lg bg-green-500 text-white font-bold px-4 py-3 text-sm transition-colors ${canOrder ? "hover:bg-green-600" : "opacity-50 pointer-events-none"}`}
-              onClick={() => canOrder && onOpenChange(false)}
+              onClick={() => {
+                trackClick('whatsapp');
+                canOrder && onOpenChange(false);
+              }}
             >
               <MessageCircle className="h-4 w-4" aria-hidden />
               Order via WhatsApp
@@ -100,7 +105,10 @@ export function BuyNowDialog({ product, open, onOpenChange }: BuyNowDialogProps)
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 rounded-lg bg-blue-600 text-white font-bold px-4 py-3 text-sm hover:bg-blue-700 transition-colors"
-              onClick={() => onOpenChange(false)}
+              onClick={() => {
+                trackClick('messenger');
+                onOpenChange(false);
+              }}
             >
               <ExternalLink className="h-4 w-4" aria-hidden />
               Message on Messenger

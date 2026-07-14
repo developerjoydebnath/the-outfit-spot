@@ -12,6 +12,8 @@ import {
   getAllCategories,
   getFooterConfig,
 } from "@/lib/data";
+import { siteData } from "@/data/site-data";
+import { AnalyticsTracker } from "@/components/analytics-tracker";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -60,6 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={cn(inter.variable, "h-full antialiased")}>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <AnalyticsTracker />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <TooltipProvider>
             <Header site={site} contact={contact} categories={categories} />

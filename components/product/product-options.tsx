@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SizeSelector, ColorSelector } from "@/components/product/option-selector";
 import { BuyNowDialog } from "@/components/product/buy-now-dialog";
 import { Button } from "@/components/ui/button";
 import { formatPrice, discountPercent } from "@/lib/format";
 import { buildWhatsAppUrl } from "@/lib/contact-links";
+import { trackClick } from "@/lib/analytics-client";
 import { getContactInfo, getSiteSettings } from "@/lib/data";
 import type { Product } from "@/types/site-data";
 import { MessageCircle, ExternalLink, ShoppingCart, Star, Truck, RefreshCw } from "lucide-react";
@@ -33,10 +34,11 @@ export function ProductOptions({ product }: ProductOptionsProps) {
     ? discountPercent(product.price, product.compareAtPrice)
     : 0;
 
-  const productUrl =
-    typeof window !== "undefined"
-      ? `${window.location.origin}/products/${product.slug}/`
-      : `/products/${product.slug}/`;
+  const [productUrl, setProductUrl] = useState(`/products/${product.slug}/`);
+
+  useEffect(() => {
+    setProductUrl(`${window.location.origin}/products/${product.slug}/`);
+  }, [product.slug]);
 
   const whatsappUrl = buildWhatsAppUrl(
     contact,
@@ -79,11 +81,9 @@ export function ProductOptions({ product }: ProductOptionsProps) {
 
       {/* Reviews placeholder */}
       <div className="flex items-center gap-2 text-sm text-muted-foreground">
-        <div className="flex text-amber-400" aria-label="4 out of 5 stars">
-          {[1, 2, 3, 4].map((n) => <Star key={n} className="h-3.5 w-3.5 fill-current" />)}
-          <Star className="h-3.5 w-3.5" />
+        <div className="flex text-amber-400" aria-label="5 out of 5 stars">
+          {[1, 2, 3, 4, 5].map((n) => <Star key={n} className="h-3.5 w-3.5 fill-current" />)}
         </div>
-        <span>No reviews yet</span>
         <span>·</span>
         <span>SKU: {product.sku}</span>
       </div>
@@ -134,6 +134,7 @@ export function ProductOptions({ product }: ProductOptionsProps) {
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackClick('whatsapp')}
           className="flex items-center justify-center gap-2.5 rounded-lg bg-green-500 text-white font-bold py-3 px-6 text-base hover:bg-green-600 active:scale-95 transition-all shadow-lg"
           id="product-whatsapp-order"
         >
@@ -144,6 +145,7 @@ export function ProductOptions({ product }: ProductOptionsProps) {
           href={contact.messengerUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackClick('messenger')}
           className="flex items-center justify-center gap-2.5 rounded-lg bg-blue-600 text-white font-bold py-3 px-6 text-base hover:bg-blue-700 active:scale-95 transition-all"
           id="product-messenger-order"
         >

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/shared/container";
 import { getContactInfo, getSiteSettings } from "@/lib/data";
 import { Phone, Mail, MapPin, MessageCircle, ExternalLink, Clock } from "lucide-react";
+import { TrackedLink } from "@/components/shared/tracked-link";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -30,7 +31,8 @@ export default function ContactPage() {
           {/* Order channels */}
           <div className="space-y-4">
             <h2 className="text-lg font-bold">Order Now</h2>
-            <a
+            <TrackedLink
+              trackType="whatsapp"
               href={`https://wa.me/${contact.whatsappNumber}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -44,8 +46,9 @@ export default function ContactPage() {
                 <p className="font-semibold text-sm text-green-700 dark:text-green-400">WhatsApp</p>
                 <p className="text-sm text-muted-foreground">Fastest way to order — {contact.phone}</p>
               </div>
-            </a>
-            <a
+            </TrackedLink>
+            <TrackedLink
+              trackType="messenger"
               href={contact.messengerUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -59,7 +62,7 @@ export default function ContactPage() {
                 <p className="font-semibold text-sm text-blue-700 dark:text-blue-400">Facebook Messenger</p>
                 <p className="text-sm text-muted-foreground">Message us on Facebook</p>
               </div>
-            </a>
+            </TrackedLink>
           </div>
 
           {/* Contact info */}

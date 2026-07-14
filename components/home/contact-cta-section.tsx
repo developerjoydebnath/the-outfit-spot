@@ -1,4 +1,7 @@
+"use client";
+
 import { MessageCircle, ExternalLink } from "lucide-react";
+import { trackClick } from "@/lib/analytics-client";
 import { Container } from "@/components/shared/container";
 import type { ContactInfo } from "@/types/site-data";
 
@@ -24,6 +27,7 @@ export function ContactCtaSection({ contact }: ContactCtaSectionProps) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 rounded-lg bg-green-500 px-6 py-3 text-sm font-bold text-white hover:bg-green-600 transition-colors shadow-lg w-full sm:w-auto justify-center"
             id="contact-whatsapp-cta"
+            onClick={() => trackClick('whatsapp')}
           >
             <MessageCircle className="h-5 w-5" aria-hidden />
             Order via WhatsApp
@@ -34,6 +38,7 @@ export function ContactCtaSection({ contact }: ContactCtaSectionProps) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 rounded-lg bg-blue-600 px-6 py-3 text-sm font-bold text-white hover:bg-blue-700 transition-colors shadow-lg w-full sm:w-auto justify-center"
             id="contact-messenger-cta"
+            onClick={() => trackClick('messenger')}
           >
             <ExternalLink className="h-5 w-5" aria-hidden />
             Message on Facebook

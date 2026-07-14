@@ -1,7 +1,8 @@
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/shared/container";
 import type { Promotion } from "@/types/site-data";
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 interface PromotionBannerProps {
   promotions: Promotion[];
@@ -15,24 +16,22 @@ export function PromotionBanner({ promotions }: PromotionBannerProps) {
   return (
     <section className="py-8 md:py-12" aria-labelledby="promo-heading">
       <Container>
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-red-600 via-red-700 to-rose-800 shadow-xl">
-          {/* Background decoration */}
-          <div
-            className="absolute inset-0 opacity-10"
-            style={{
-              backgroundImage:
-                "radial-gradient(circle at 70% 50%, white 0%, transparent 50%)",
-            }}
-            aria-hidden
-          />
-          <div className="absolute top-0 right-0 w-48 h-48 text-white/5 text-[12rem] font-black leading-none select-none" aria-hidden>
-            ⚽
+        <div className="relative overflow-hidden rounded-2xl shadow-xl">
+          {/* Background image */}
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/images/world-cup-bg.png"
+              alt=""
+              fill
+              className="object-cover"
+              unoptimized
+            />
           </div>
 
-          <div className="relative p-8 md:p-12 flex flex-col md:flex-row items-center gap-6">
+          <div className="relative z-10 p-8 md:p-12 flex flex-col md:flex-row items-center gap-6">
             <div className="flex-1 text-white text-center md:text-left">
               <span className="inline-block text-xs font-bold uppercase tracking-widest bg-white/20 text-white px-3 py-1 rounded-full mb-4">
-                🌟 Exclusive
+                Exclusive
               </span>
               <h2 id="promo-heading" className="text-2xl md:text-4xl font-extrabold leading-tight mb-3">
                 {promo.title}
